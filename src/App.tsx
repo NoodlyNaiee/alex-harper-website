@@ -37,53 +37,53 @@ const App = () => {
       </div>
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center">
-        <h3 className="text-4xl md:text-6xl font-bold text-white mb-8">Alex Harper</h3>
-        
-        <a href='https://www.youtube.com/@AlexDHarper' target="_blank" className='musicbutton'>
+        <h3 className="alexharpertitle text-4xl md:text-6xl font-bold text-white mb-8">Alex Harper</h3>
+         <a href='https://www.youtube.com/@AlexDHarper' target="_blank" className='musicbutton thelinks'>
           <button className="mybutton group group-hover:before:duration-500 group-hover:after:duration-500 after:duration-500 hover:border-white-300 hover:before:[box-shadow:_20px_20px_20px_30px_#411870] duration-500 before:duration-500 hover:duration-500 underline underline-offset-2 hover:after:-right-8 hover:before:right-12 hover:before:-bottom-8 hover:before:blur hover:underline hover:underline-offset-4  origin-left hover:decoration-2 hover:text-red-300 relative bg-red-800 border text-left p-3 text-gray-50 text-base font-bold rounded-lg  overflow-hidden  before:absolute before:w-12 before:h-12 before:content[''] before:right-1 before:top-1 before:z-10 before:bg-red-500 before:rounded-full before:blur-lg  after:absolute after:z-10 after:w-20 after:h-20 after:content['']  after:bg-amber-200 after:right-8 after:top-3 after:rounded-full after:blur-lg">
             YouTube (Music)
           </button> 
         </a>
-        <a href='https://www.youtube.com/@Xelianity' target="_blank" className='gamingbutton'>
+        <a href='https://www.youtube.com/@Xelianity' target="_blank" className='gamingbutton thelinks'>
           <button className="mybutton group group-hover:before:duration-500 group-hover:after:duration-500 after:duration-500 hover:border-white-300 hover:before:[box-shadow:_20px_20px_20px_30px_#411870] duration-500 before:duration-500 hover:duration-500 underline underline-offset-2 hover:after:-right-8 hover:before:right-12 hover:before:-bottom-8 hover:before:blur hover:underline hover:underline-offset-4  origin-left hover:decoration-2 hover:text-red-300 relative bg-red-800 border text-left p-3 text-gray-50 text-base font-bold rounded-lg  overflow-hidden  before:absolute before:w-12 before:h-12 before:content[''] before:right-1 before:top-1 before:z-10 before:bg-red-500 before:rounded-full before:blur-lg  after:absolute after:z-10 after:w-20 after:h-20 after:content['']  after:bg-amber-200 after:right-8 after:top-3 after:rounded-full after:blur-lg">
             YouTube (Gaming)
           </button>
         </a>
-        <a href='https://www.youtube.com/@XelianityVODS' target="_blank" className='vodsbutton'>
+        <a href='https://www.youtube.com/@XelianityVODS' target="_blank" className='vodsbutton thelinks'>
           <button className="mybutton group group-hover:before:duration-500 group-hover:after:duration-500 after:duration-500 hover:border-white-300 hover:before:[box-shadow:_20px_20px_20px_30px_#411870] duration-500 before:duration-500 hover:duration-500 underline underline-offset-2 hover:after:-right-8 hover:before:right-12 hover:before:-bottom-8 hover:before:blur hover:underline hover:underline-offset-4  origin-left hover:decoration-2 hover:text-red-300 relative bg-red-800 border text-left p-3 text-gray-50 text-base font-bold rounded-lg  overflow-hidden  before:absolute before:w-12 before:h-12 before:content[''] before:right-1 before:top-1 before:z-10 before:bg-red-500 before:rounded-full before:blur-lg  after:absolute after:z-10 after:w-20 after:h-20 after:content['']  after:bg-amber-200 after:right-8 after:top-3 after:rounded-full after:blur-lg">
             YouTube (Stream Vods)
           </button>
         </a>
-        <a href='https://www.youtube.com/@AlexHarperReacts' target="_blank" className='reactionbutton'>
+        <a href='https://www.youtube.com/@AlexHarperReacts' target="_blank" className='reactionbutton thelinks'>
           <button className="mybutton group group-hover:before:duration-500 group-hover:after:duration-500 after:duration-500 hover:border-white-300 hover:before:[box-shadow:_20px_20px_20px_30px_#411870] duration-500 before:duration-500 hover:duration-500 underline underline-offset-2 hover:after:-right-8 hover:before:right-12 hover:before:-bottom-8 hover:before:blur hover:underline hover:underline-offset-4  origin-left hover:decoration-2 hover:text-red-300 relative bg-red-800 border text-left p-3 text-gray-50 text-base font-bold rounded-lg  overflow-hidden  before:absolute before:w-12 before:h-12 before:content[''] before:right-1 before:top-1 before:z-10 before:bg-red-500 before:rounded-full before:blur-lg  after:absolute after:z-10 after:w-20 after:h-20 after:content['']  after:bg-amber-200 after:right-8 after:top-3 after:rounded-full after:blur-lg">
             YouTube (Reactions)
           </button>
         </a>
-        <a href='https://www.instagram.com/alexdharper/' target="_blank" className='instagrambutton'>
+        <a href='https://www.instagram.com/alexdharper/' target="_blank" className='instagrambutton thelinks'>
           <button className="mybutton group group-hover:before:duration-500 group-hover:after:duration-500 after:duration-500 hover:border-yellow-300 hover:before:[box-shadow:_20px_20px_20px_30px_#411870] duration-500 before:duration-500 hover:duration-500 underline underline-offset-2 hover:after:-right-8 hover:before:right-12 hover:before:-bottom-8 hover:before:blur hover:underline hover:underline-offset-4  origin-left hover:decoration-2 hover:text-yellow-300 relative bg-neutral-800 border text-left p-3 text-gray-50 text-base font-bold rounded-lg  overflow-hidden  before:absolute before:w-12 before:h-12 before:content[''] before:right-1 before:top-1 before:z-10 before:bg-pink-500 before:rounded-full before:blur-lg  after:absolute after:z-10 after:w-20 after:h-20 after:content['']  after:bg-amber-200 after:right-8 after:top-3 after:rounded-full after:blur-lg">
             Instagram
           </button>
         </a>
-        <a href='https://www.twitch.tv/xelianity' target="_blank" className='twitchbutton'>
+        <a href='https://www.twitch.tv/xelianity' target="_blank" className='twitchbutton thelinks'>
           <button className="mybutton group group-hover:before:duration-500 group-hover:after:duration-500 after:duration-500 hover:border-yellow-300 hover:before:[box-shadow:_20px_20px_20px_30px_#411870] duration-500 before:duration-500 hover:duration-500 underline underline-offset-2 hover:after:-right-8 hover:before:right-12 hover:before:-bottom-8 hover:before:blur hover:underline hover:underline-offset-4  origin-left hover:decoration-2 hover:text-yellow-300 relative bg-neutral-800 border text-left p-3 text-gray-50 text-base font-bold rounded-lg  overflow-hidden  before:absolute before:w-12 before:h-12 before:content[''] before:right-1 before:top-1 before:z-10 before:bg-violet-500 before:rounded-full before:blur-lg  after:absolute after:z-10 after:w-20 after:h-20 after:content['']  after:bg-amber-200 after:right-8 after:top-3 after:rounded-full after:blur-lg">
             Twitch
           </button>
         </a>
-        <a href='https://x.com/AlexDHarper' target="_blank" className='xbutton'>
+        <a href='https://x.com/AlexDHarper' target="_blank" className='xbutton thelinks'>
           <button className="mybutton group group-hover:before:duration-500 group-hover:after:duration-500 after:duration-500 hover:border-yellow-300 hover:before:[box-shadow:_20px_20px_20px_30px_#411870] duration-500 before:duration-500 hover:duration-500 underline underline-offset-2 hover:after:-right-8 hover:before:right-12 hover:before:-bottom-8 hover:before:blur hover:underline hover:underline-offset-4  origin-left hover:decoration-2 hover:text-yellow-300 relative bg-neutral-800 border text-left p-3 text-gray-50 text-base font-bold rounded-lg  overflow-hidden  before:absolute before:w-12 before:h-12 before:content[''] before:right-1 before:top-1 before:z-10 before:bg-green-500 before:rounded-full before:blur-lg  after:absolute after:z-10 after:w-20 after:h-20 after:content['']  after:bg-amber-200 after:right-8 after:top-3 after:rounded-full after:blur-lg">
             X
           </button>
         </a>
-        <a href='https://www.tiktok.com/@alexdharper' target="_blank" className='tiktokbutton'>
+        <a href='https://www.tiktok.com/@alexdharper' target="_blank" className='tiktokbutton thelinks'>
           <button className="mybutton group group-hover:before:duration-500 group-hover:after:duration-500 after:duration-500 hover:border-yellow-300 hover:before:[box-shadow:_20px_20px_20px_30px_#411870] duration-500 before:duration-500 hover:duration-500 underline underline-offset-2 hover:after:-right-8 hover:before:right-12 hover:before:-bottom-8 hover:before:blur hover:underline hover:underline-offset-4  origin-left hover:decoration-2 hover:text-yellow-300 relative bg-neutral-800 border text-left p-3 text-gray-50 text-base font-bold rounded-lg  overflow-hidden  before:absolute before:w-12 before:h-12 before:content[''] before:right-1 before:top-1 before:z-10 before:bg-blue-500 before:rounded-full before:blur-lg  after:absolute after:z-10 after:w-20 after:h-20 after:content['']  after:bg-amber-200 after:right-8 after:top-3 after:rounded-full after:blur-lg">
             TikTok
           </button>
         </a>
-        <a href='https://www.patreon.com/AlexDHarper' target="_blank" className='patreonbutton'>
+        <a href='https://www.patreon.com/AlexDHarper' target="_blank" className='patreonbutton thelinks'>
           <button className="mybutton group group-hover:before:duration-500 group-hover:after:duration-500 after:duration-500 hover:border-yellow-300 hover:before:[box-shadow:_20px_20px_20px_30px_#411870] duration-500 before:duration-500 hover:duration-500 underline underline-offset-2 hover:after:-right-8 hover:before:right-12 hover:before:-bottom-8 hover:before:blur hover:underline hover:underline-offset-4  origin-left hover:decoration-2 hover:text-yellow-300 relative bg-neutral-800 border text-left p-3 text-gray-50 text-base font-bold rounded-lg  overflow-hidden  before:absolute before:w-12 before:h-12 before:content[''] before:right-1 before:top-1 before:z-10 before:bg-orange-500 before:rounded-full before:blur-lg  after:absolute after:z-10 after:w-20 after:h-20 after:content['']  after:bg-amber-200 after:right-8 after:top-3 after:rounded-full after:blur-lg">
             Patreon
           </button>
-        </a>
+        </a> 
+        
       </div>
       {/* Shooting stars effect */}
       <ShootingStars
