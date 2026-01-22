@@ -1,7 +1,7 @@
 {
   "name": "Alex Harper's Corner",
   "private": true,
-  "homepage": "https://noodlynaiee.github.io/alex-harper-website",
+  "homepage": "https://noodlynaiee.github.io/alex-harper-website/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.4",
